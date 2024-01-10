@@ -28,18 +28,18 @@
 }
 
 .LogoContainer {
-  margin-right: 140px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  right: 20px;
+  right: 100px;
 }
 
 .Logo {
   width: 500px;
+  height: auto;
   max-width: 100%;
 }
 
@@ -96,7 +96,14 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Added box-shadow on active */
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 2000px) {
+  .HeaderContainer h1 {
+    font-size: 55px;
+  }
+  
+}
+
+@media screen and (max-width: 1200px) {
   .Home {
     padding: 20px;
   }
@@ -106,7 +113,7 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -127,7 +134,7 @@
   }
   
   .HeaderContainer h1 {
-    margin-top: 20%;
+    margin-top: 25%;
     font-size: 50px; 
     margin-bottom: 10px;
     text-align: center;
