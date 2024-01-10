@@ -1,0 +1,16 @@
+.Contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.Title {
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 50px;
+  margin-top: 70px;
+}

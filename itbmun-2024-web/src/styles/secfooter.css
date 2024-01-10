@@ -1,0 +1,60 @@
+.SecFooter {
+  width: 100%;
+  height: 17vh;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-image: url("../assets/footer.jpg");
+  filter: saturate(60%);
+  opacity: 0.5;
+  margin-top: 100px;
+}
+
+.SecFooter::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: saturate(60%);
+    opacity: 0.5;
+    z-index: -1;
+  }
+
+.SecFooter a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    transition: color 0.3s, transform 0.3s;
+  
+    &:hover {
+      color: #ffcc00;
+      transform: scale(1.1);
+    }
+  }
+
+.Menu {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  transition: color 0.3s, transform 0.3s;
+}
+
+@media screen and (max-width: 1200px) {
+  .SecFooter a {
+    font-size: 19px;
+    margin: 8px;
+  }
+}

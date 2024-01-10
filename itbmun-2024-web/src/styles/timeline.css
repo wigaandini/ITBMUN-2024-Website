@@ -1,0 +1,197 @@
+.Timeline {
+  background: linear-gradient(to bottom, white, #cfd7ed, #fcfcfc);
+  color: black;
+  position: relative;
+  /* max-width: 1200px; */
+  margin: 100px auto;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", s1ans-serif;
+  padding: 0;
+  width: 100%;
+}
+
+.Title {
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 50px;
+  margin-top: 70px;
+  text-align: center;
+}
+
+.Container {
+  padding: 10px 50px;
+  position: relative;
+  background-color: linear-gradient(to bottom, white, #cfd7ed, #fcfcfc);
+  width: 50%;
+  animation: movedown 1s linear forwards;
+  opacity: 0;
+}
+
+@keyframes movedown {
+  0% {
+    transform: translateY(-30px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.Container:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.Container:nth-child(2) {
+  animation-delay: 1s;
+}
+
+.Container:nth-child(3) {
+  animation-delay: 2s;
+}
+
+.Container:nth-child(4) {
+  animation-delay: 3s;
+}
+
+.Container:nth-child(5) {
+  animation-delay: 4s;
+}
+
+.Container:nth-child(6) {
+  animation-delay: 5s;
+}
+
+.Container:nth-child(7) {
+  animation-delay: 6s;
+}
+
+.Container:nth-child(8) {
+  animation-delay: 7s;
+}
+
+.TextBox {
+  border-radius: 8px;
+  padding: 20px 30px;
+  position: relative;
+  background-color: white;
+  font-size: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.LeftContainer {
+  left: 0;
+}
+
+.RightContainer {
+  left: 43%;
+}
+
+.Container img {
+  top: 35%;
+  position: absolute;
+  width: 40px;
+  border-radius: 50%;
+  right: 86px;
+}
+
+.RightContainer img {
+  left: 85px;
+}
+
+.Timeline::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 85%;
+  background: white;
+  top: 11%;
+  bottom: 0;
+  left: 49.5%;
+  margin-left: -1px;
+  animation: moveline 6s linear forwards;
+}
+
+@keyframes moveline {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 85%;
+  }
+}
+
+.TextBox h2 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.TextBox small {
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.LeftArrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 34%;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid white;
+  right: -14px;
+}
+
+.RightArrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 34%;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid white;
+  left: -14px;
+}
+
+@media screen and (max-width: 1100px) {
+  .Timeline {
+    margin: 50px auto;
+    margin-bottom: 100px;
+  }
+  .Timeline::after {
+    left: 50px;
+  }
+  .Container {
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .TextBox {
+    font-size: 13px;
+  }
+  .TextBox small {
+    margin-bottom: 10px;
+  }
+  .RightContainer {
+    left: 0;
+  }
+  .LeftContainer img, .RightContainer img {
+    left: 32.5px;
+  }
+  .RightArrow, .LeftArrow {
+    border-right: 15px solid white;
+    border-left: 0;
+    left: -14px
+  }
+  .Title {
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}

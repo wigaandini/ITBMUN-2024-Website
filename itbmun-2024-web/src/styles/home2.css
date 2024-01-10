@@ -1,0 +1,66 @@
+.Home2 {
+  background: linear-gradient(
+    to bottom,
+    white,
+    #cfd7ed,
+    #d3d3d3,
+    #cfc49b,
+    white
+  );
+  padding: 50px 0;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 300;
+  color: #333;
+}
+
+.Title {
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 50px;
+  margin-top: 70px;
+}
+
+.Description {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+  line-height: 1.5;
+}
+
+.Picture img {
+  width: 40%;
+  height: 40%;
+  border-radius: 30px;
+  margin-top: 6px;
+  margin-bottom: 18px;
+  filter: saturate(60%);
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1100px) {
+  .Picture img {
+    width: 60%;
+    height: 60%;
+    border-radius: 30px;
+    margin-top: 6px;
+    margin-bottom: 18px;
+    filter: saturate(60%);
+    opacity: 0.8;
+  }
+
+  .Title {
+    font-size: 24px;
+  }
+  
+  .Description {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    line-height: 1.5;
+  }
+}

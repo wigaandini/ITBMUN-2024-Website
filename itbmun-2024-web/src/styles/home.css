@@ -1,0 +1,214 @@
+.Home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-image: url("../assets/BG.jpg");
+  filter: saturate(60%);
+  opacity: 0.8;
+}
+
+.Home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(12, 12, 23);
+  filter: saturate(60%);
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.LogoContainer {
+  margin-right: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+}
+
+.Logo {
+  width: 500px;
+  max-width: 100%;
+}
+
+.HeaderContainer {
+  width: 33%;
+  margin-left: 100px;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  border-radius: 20px;
+  /* background-color: white; */
+  opacity: 0.9;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.HeaderContainer h1 {
+  font-size: 77px;
+  height: 60px;
+  font-weight: bold; /* Combine font-weight into a single property */
+  color: white;
+}
+
+.HeaderContainer p {
+  padding: 0;
+  font-size: 30px;
+  font-weight: lighter;
+  color: white;
+}
+
+.HeaderContainer button {
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+  height: 45px;
+  width: 170px;
+  color: #121619;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Added box-shadow transition */
+}
+
+.HeaderContainer button:hover {
+  background-color: gainsboro;
+  /* background-color: #07090a; */
+  transform: scale(1.05);
+}
+
+.HeaderContainer button:active {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Added box-shadow on active */
+}
+
+@media screen and (max-width: 1000px) {
+  .Home {
+    padding: 20px;
+  }
+
+  .LogoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .Logo {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .HeaderContainer {
+    width: 100%; 
+    max-width: 100%;
+    margin: 0 auto; 
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+  }
+  
+  .HeaderContainer h1 {
+    margin-top: 20%;
+    font-size: 50px; 
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .HeaderContainer p {
+    margin-top: 1px;
+    font-size: 20px; 
+    margin-bottom: 15px; 
+    text-align: center;
+  }
+
+  .HeaderContainer button {
+    width: 18%; 
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+
+
+
+
+
+/* @media screen and (max-width: 1000px) {
+  .LogoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .Logo {
+    width: 400px;
+  }
+
+  .HeaderContainer {
+    width: 70%;
+    padding-top: 500px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    text-align: center;
+    opacity: 0.9;
+  }
+  
+  .HeaderContainer h1 {
+    padding-top: 10px;
+    font-size: 77px;
+    height: 60px;
+    font-weight: bold; 
+    color: white;
+    margin: 0;
+  }
+  
+  .HeaderContainer p {
+    padding-top: 25px;
+    font-size: 30px;
+    font-weight: lighter;
+    color: white;
+    margin: 0; 
+  }
+  
+  .HeaderContainer button {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    height: 45px;
+    width: 170px;
+    color: #121619;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+} */
