@@ -5,6 +5,7 @@ import Navbar from "./components/navbar.jsx";
 import Home from "./pages/home.jsx";
 import SecFooter from "./components/secfooter.jsx";
 import Registration from "./pages/registration.jsx";
+import Sponsor from "./pages/sponsor.jsx";
 import About from "./pages/about.jsx";
 import NotFound from "./pages/notfound.jsx";
 import Contact from "./pages/contact.jsx";
@@ -35,6 +36,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/registration" element={<Registration />} />
+          <Route path="/sponsors" element={<Sponsor />} />
           <Route path="*" element={<NotFound />} />
         </Switch>
         <SecFooter />
