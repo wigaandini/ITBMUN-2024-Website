@@ -4,8 +4,8 @@ import Footer from "./components/footer.jsx";
 import Navbar from "./components/navbar.jsx";
 import Home from "./pages/home.jsx";
 import SecFooter from "./components/secfooter.jsx";
-import Home2 from "./pages/home2.jsx";
-import Timeline from "./pages/timeline.jsx";
+import Home2 from "./components/home2.jsx";
+import Timeline from "./components/timeline.jsx";
 import About from "./pages/about.jsx";
 import NotFound from "./pages/notfound.jsx";
 import Contact from "./pages/contact.jsx";
@@ -30,8 +30,6 @@ function App() {
           <Route path="/" element={
               <>
                 <Home />
-                <Home2 />
-                <Timeline />
               </>
             }
           />

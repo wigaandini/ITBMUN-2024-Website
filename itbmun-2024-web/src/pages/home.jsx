@@ -1,25 +1,16 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "../styles/home.css";
-import Logo from "../assets/ITBMUN-Logo.png";
+import React from 'react'
+import Home1 from '../components/home1'
+import Home2 from '../components/home2'
+import Timeline from '../components/timeline' 
 
-function Home() {
+function HomeFinal() {
   return (
-    <div className="Home">
-      <div className="HeaderContainer">
-        <div className="Header">
-          <h1> ITBMUN 2024 </h1>
-          <p> Greetings, esteemed delegates! </p>
-          <Link to="/register">
-            <button> Register Now </button>
-          </Link>
-        </div>
-      </div>
-      <div className="LogoContainer">
-        <img src={Logo} alt="ITBMUN Logo" className="Logo" />
-      </div>
+    <div>
+      <Home1 />
+      <Home2 />
+      <Timeline />
     </div>
-  );
+  )
 }
 
-export default Home;
+export default HomeFinal

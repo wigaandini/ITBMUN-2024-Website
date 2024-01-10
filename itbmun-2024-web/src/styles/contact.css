@@ -1,11 +1,19 @@
 .Contact {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background-color: white;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    white,
+    #cfd7ed,
+    #d3d3d3,
+    #cfc49b,
+    white
+  );
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-top: 5%;
+  position: relative;
+  align-items: center;
 }
 
 .Title {
@@ -13,4 +21,117 @@
   font-weight: 300;
   margin-bottom: 50px;
   margin-top: 70px;
+  animation: movedown 1s linear forwards;
+  opacity: 0;
+}
+
+.SubContact {
+  padding: 10px 50px;
+  position: relative;
+  background-color: linear-gradient(to bottom, white, #cfd7ed, #fcfcfc);
+  width: 60%;
+  text-align: center;
+  animation: movedown 1s linear forwards;
+  opacity: 0;
+  margin-bottom: 50px;
+}
+
+@keyframes movedown {
+  0% {
+    transform: translateY(-30px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.SubContact h2 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.SubContact p {
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.ContactInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin: 20px;
+}
+
+.ContactInfo h3 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.ContactInfo h4 {
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.ContactInfo p {
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.Left {
+  background-color: #f0f0f0;
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75)
+}
+
+.Right {
+  background-color: #e0e0e0;
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.SubContact:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.SubContact:nth-child(2) {
+  animation-delay: 1.1s;
+}
+
+.SubContact:nth-child(3) {
+  animation-delay: 2.2s;
+}
+
+@media screen and (max-width: 1000px) {
+  .Contact {
+    padding-top: 10%;
+  }
+  .SubContact {
+    width: 50%;
+  }
+  .ContactInfo {
+    flex-direction: column;
+  }
+  .Left {
+    margin: 10px;
+  }
+  .Right {
+    margin: 10px;
+  }
 }
