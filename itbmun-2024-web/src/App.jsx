@@ -4,8 +4,7 @@ import Footer from "./components/footer.jsx";
 import Navbar from "./components/navbar.jsx";
 import Home from "./pages/home.jsx";
 import SecFooter from "./components/secfooter.jsx";
-import Home2 from "./components/home2.jsx";
-import Timeline from "./components/timeline.jsx";
+import Registration from "./pages/registration.jsx";
 import About from "./pages/about.jsx";
 import NotFound from "./pages/notfound.jsx";
 import Contact from "./pages/contact.jsx";
@@ -35,6 +34,7 @@ function App() {
           />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/registration" element={<Registration />} />
           <Route path="*" element={<NotFound />} />
         </Switch>
         <SecFooter />

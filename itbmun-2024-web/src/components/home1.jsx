@@ -10,7 +10,7 @@ function Home() {
         <div className="Header">
           <h1> ITBMUN 2024 </h1>
           <p> Greetings, esteemed delegates! </p>
-          <Link to="/register">
+          <Link to="/registration">
             <button> Register Now </button>
           </Link>
         </div>

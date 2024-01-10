@@ -10,7 +10,7 @@ function SecFooter() {
         <Link to="/"> Home </Link>
         <Link to="/about"> About Us </Link>
         <Link to="/councils"> Councils </Link>
-        <Link to="/register"> Register </Link>
+        <Link to="/registration"> Registration </Link>
         <Link to="/articles"> Articles </Link>
         <Link to="/sponsors"> Sponsors </Link>
         <Link to="/contact"> Contact Us </Link>
