@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/registration.css";
-import Logo from "../assets/ITBMUN-Logo.png";
+import Logo from "../assets/logo-black.png";
 
 function Registration() {
   const GBURL = "https://forms.gle/2iqmwt58ZYmAhLTD9";
@@ -20,7 +20,7 @@ function Registration() {
       </div>
       <div className="RegistrationForm">
         <div className="registrationContent">
-          <p> Please fill out the form below to register for ITBMUN 2024. </p>
+          <p> What are you waiting for? Enroll immediately! </p>
           <a href={DELURL} target="_blank" rel="noopener noreferrer">
             <button> Delegation </button>
           </a>

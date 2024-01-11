@@ -57,9 +57,9 @@
 }
 
 .HeaderContainer h1 {
-  font-size: 77px;
+  font-size: 100px;
   height: 60px;
-  font-weight: bold; /* Combine font-weight into a single property */
+  font-weight: bold;
   color: white;
 }
 

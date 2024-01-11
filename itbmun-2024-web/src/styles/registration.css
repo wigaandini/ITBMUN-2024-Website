@@ -47,9 +47,11 @@
 }
 
 .GuideBook img {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .GuideBook button {
@@ -146,17 +148,16 @@
   }
 
   .GuideBook {
-    margin-top: 200px;
     margin-left: 30px;
     margin-right: 30px;
+    margin-bottom: 100px;
   }
 
   .guidebookContent {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px;
   }
 
   .GuideBook p {
@@ -166,14 +167,13 @@
   }
 
   .GuideBook img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     margin-right: 30px;
   }
 
   .RegistrationForm {
-    margin-top: 110px;
-    margin-bottom: 150px;
+    margin-top: 0px;
     margin-left: 30px;
     margin-right: 30px;
   }

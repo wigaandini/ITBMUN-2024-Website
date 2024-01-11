@@ -14,8 +14,8 @@ function Contact() {
         <div className='Left'> 
           <h3> Roes Devina Syarla Anggana </h3>
           <h4> <em> USG of Delegate Relations </em> </h4>
-          <p> Line ID : </p>
-          <p> Whatsapp Number : </p>
+          <p> Line ID : rdavinasyarlaa </p>
+          <p> Whatsapp Number : 085767651073 </p>
         </div>
         <div className='Right'>
           <h3> Nasha Nasmia </h3>
@@ -32,8 +32,8 @@ function Contact() {
         <div className='Left'> 
           <h3> Nova Nathania Muljohartono </h3>
           <h4> <em> USG of Finance </em> </h4>
-          <p> Line ID : </p>
-          <p> Whatsapp Number : </p>
+          <p> Line ID : novanathaniaaa </p>
+          <p> Whatsapp Number : 089621166679 </p>
         </div>
         <div className='Right'>
           <h3> Theophillus Mangatas Christanto </h3>

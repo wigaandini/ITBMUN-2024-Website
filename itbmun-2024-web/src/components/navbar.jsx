@@ -18,7 +18,7 @@ function Navbar() {
         <Link to="/"> ITBMUN 2024 </Link>
         <div className="HiddenLinksContainer">
           <div className="HiddenLinks">
-            <Link to="/"> Home </Link>
+            {/* <Link to="/"> Home </Link> */}
             <Link to="/about"> About Us </Link>
             <Link to="/councils"> Councils </Link>
             <Link to="/registration"> Registration </Link>

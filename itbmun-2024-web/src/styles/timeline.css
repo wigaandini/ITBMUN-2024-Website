@@ -159,7 +159,7 @@
   left: -14px;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
   .Timeline {
     margin: 50px auto;
     margin-bottom: 100px;
