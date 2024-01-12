@@ -16,7 +16,7 @@
 }
 
 .GuideBook {
-  margin-top: 700px;
+  margin-top: 300px;
   background-color: #ffffff;
   opacity: 0.9;
   flex: 1;
@@ -95,7 +95,7 @@
   background-color: linear-gradient(to bottom, white, #cfd7ed, #fcfcfc);
   width: auto;
   text-align: center;
-  margin-bottom: 600px;
+  margin-bottom: 400px;
 }
 
 .registrationContent {

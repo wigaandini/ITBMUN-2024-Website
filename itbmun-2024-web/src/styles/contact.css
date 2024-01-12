@@ -11,7 +11,7 @@
     white
   );
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  padding-top: 5%;
+  /* padding-top: 5%; */
   position: relative;
   align-items: center;
 }

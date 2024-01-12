@@ -1,6 +1,6 @@
 .SecFooter {
   width: 100%;
-  height: 17vh;
+  height: 13vh;
   display: flex;
   justify-content: center;
   align-items: left;
@@ -15,31 +15,31 @@
 }
 
 .SecFooter::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    filter: saturate(60%);
-    opacity: 0.5;
-    z-index: -1;
-  }
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: saturate(60%);
+  opacity: 0.5;
+  z-index: -1;
+}
 
 .SecFooter a {
-    color: white;
-    text-decoration: none;
-    margin: 20px;
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
-    transition: color 0.3s, transform 0.3s;
-  
-    &:hover {
-      color: #ffcc00;
-      transform: scale(1.1);
-    }
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  transition: color 0.3s, transform 0.3s;
+
+  &:hover {
+    color: #ffcc00;
+    transform: scale(1.1);
   }
+}
 
 .Menu {
   color: white;
