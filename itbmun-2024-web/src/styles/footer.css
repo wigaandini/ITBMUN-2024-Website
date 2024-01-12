@@ -15,22 +15,25 @@
 .SocMed svg {
   color: white;
   margin: 10px;
-  font-size: 40px;
+  margin-bottom: 0px;
+  font-size: 30px;
   cursor: pointer;
-  transition: transform 0.2s ease-in-out; /* Add a transition for smooth scaling */
+  transition: transform 0.2s ease-in-out;
 }
 
 .SocMed svg:hover {
   transform: scale(1.1);
-  color:#ffcc00;
+  color: #ffcc00;
 }
 
 .Footer p {
   color: white;
+  font-size: 14px;
 }
 
 .Copyright {
   color: white;
-  margin-top: 10px;
-  padding-left: 9px;
+  margin-top: 5px;
+  text-align: center;
+  font-size: 12px;
 }
