@@ -9,6 +9,7 @@ import Sponsor from "./pages/sponsor.jsx";
 import About from "./pages/about.jsx";
 import NotFound from "./pages/notfound.jsx";
 import Contact from "./pages/contact.jsx";
+import Articles from "./pages/articles.jsx";
 import {
   BrowserRouter as Router,
   Route,
@@ -37,6 +38,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/registration" element={<Registration />} />
           <Route path="/sponsors" element={<Sponsor />} />
+          <Route path="/articles" element={<Articles />} />
           <Route path="*" element={<NotFound />} />
         </Switch>
         <SecFooter />
