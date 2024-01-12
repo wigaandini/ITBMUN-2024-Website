@@ -28,7 +28,9 @@ function App() {
       <Router>
         <Navbar isOpen={isOpen} toggleNavbar={toggleNavbar} />
         <Switch>
-          <Route path="/" element={
+          <Route
+            path="/"
+            element={
               <>
                 <Home />
               </>
@@ -41,8 +43,10 @@ function App() {
           <Route path="/articles" element={<Articles />} />
           <Route path="*" element={<NotFound />} />
         </Switch>
-        <SecFooter />
-        <Footer />
+        <div>
+          <SecFooter />
+          <Footer />
+        </div>
       </Router>
     </div>
   );
