@@ -3,9 +3,9 @@ import "../styles/registration.css";
 import Logo from "../assets/logo-black.png";
 
 function Registration() {
-  const GBURL = "bit.ly/ajhaljfhdahds";
-  const REGURL = "bit.ly/ajhaljfhdahds";
-  const DELURL = "bit.ly/ajhaljfhdahds";
+  const GBURL = "*";
+  const CHAIRURL = "https://bit.ly/ChairRecruitmentITBMUN2024";
+  const DELURL = "*";
 
   return (
     <div className="Registration">
@@ -21,11 +21,11 @@ function Registration() {
       <div className="RegistrationForm">
         <div className="registrationContent">
           <p> What are you waiting for? Enroll immediately! </p>
+          <a href={CHAIRURL} target="_blank" rel="noopener noreferrer">
+            <button> Chair </button>
+          </a>
           <a href={DELURL} target="_blank" rel="noopener noreferrer">
             <button> Delegation </button>
-          </a>
-          <a href={REGURL} target="_blank" rel="noopener noreferrer">
-            <button> Regular </button>
           </a>
         </div>
       </div>
