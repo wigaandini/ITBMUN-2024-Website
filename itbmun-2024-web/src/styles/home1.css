@@ -8,7 +8,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "DMSerifDisplayRegular", "BelgianoSerif2", "DMSerifDisplayItalic", "GloockRegular", sans-serif;
   background-image: url("../assets/BG.jpg");
   filter: saturate(60%);
   opacity: 0.8;
@@ -117,11 +117,12 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-
+  
   .Logo {
     width: 500px;
     max-width: 100%;
     height: auto;
+    margin-bottom: 20px;
   }
 
   .HeaderContainer {

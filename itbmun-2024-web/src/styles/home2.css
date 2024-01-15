@@ -9,25 +9,25 @@
   );
   padding: 50px 0;
   text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "GloockRegular", "BelgianoSerif2", "DMSerifDisplayRegular", "DMSerifDisplayItalic", sans-serif;
   font-weight: 300;
   color: #333;
 }
 
-.Title {
-  font-size: 20px;
+.Title h1 {
+  font-size: 30px;
   font-weight: 300;
   margin-bottom: 50px;
   margin-top: 70px;
 }
 
 .Description {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   margin-bottom: 50px;
   margin-left: 300px;
   margin-right: 300px;
-  line-height: 1.5;
+  line-height: 1.55;
 }
 
 .Picture img {

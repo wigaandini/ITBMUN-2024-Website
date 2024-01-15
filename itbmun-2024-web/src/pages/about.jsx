@@ -1,6 +1,6 @@
 import React from "react";
-// import MultiplePizzas from "../assets/multiplePizzas.jpeg";
 import "../styles/about.css";
+
 function About() {
   return (
     <div className="about">

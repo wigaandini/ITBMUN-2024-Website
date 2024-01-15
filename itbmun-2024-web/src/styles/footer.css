@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-family: "GloockRegular", "BelgianoSerif2", "DMSerifDisplayRegular", "DMSerifDisplayItalic", sans-serif;
 }
 
 .SocMed p {

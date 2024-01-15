@@ -3,9 +3,9 @@ import "../styles/registration.css";
 import Logo from "../assets/logo-black.png";
 
 function Registration() {
-  const GBURL = "https://forms.gle/2iqmwt58ZYmAhLTD9";
-  const REGURL = "https://forms.gle/2iqmwt58ZYmAhLTD9";
-  const DELURL = "https://bit.ly/YukPresensiDay4Lagi";
+  const GBURL = "bit.ly/ajhaljfhdahds";
+  const REGURL = "bit.ly/ajhaljfhdahds";
+  const DELURL = "bit.ly/ajhaljfhdahds";
 
   return (
     <div className="Registration">

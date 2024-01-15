@@ -1,12 +1,13 @@
 import React from 'react'
 import '../styles/contact.css'
+import "../styles/font.css";
 
 function Contact() {
   return (
     <div className='Contact'>
-      <div className='Title'>
+      {/* <div className='Title'>
         <h1> Contact Us </h1>
-      </div>
+      </div> */}
       <div className='SubContact'>
         <h2> DELEGATES AND ADMINISTRATION </h2>
         <p> For any inquiries regarding registration, please contact </p>
@@ -38,8 +39,8 @@ function Contact() {
         <div className='Right'>
           <h3> Theophillus Mangatas Christanto </h3>
           <h4> <em> Director of Sponsorship and Partnership </em> </h4>
-          <p> Line ID : </p>
-          <p> Whatsapp Number : </p>
+          <p> Line ID : theophillusm </p>
+          <p> Whatsapp Number : 081284554065 </p>
         </div>
         </div>
       </div>

@@ -10,8 +10,8 @@
     #cfc49b,
     white
   );
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  /* padding-top: 5%; */
+  font-family: "GloockRegular", "BelgianoSerif2", "DMSerifDisplayRegular", "DMSerifDisplayItalic", sans-serif;
+  padding-top: 5%;
   position: relative;
   align-items: center;
 }
@@ -21,8 +21,8 @@
   font-weight: 300;
   margin-bottom: 50px;
   margin-top: 70px;
-  animation: movedown 1s linear forwards;
-  opacity: 0;
+  /* animation: movedown 1s linear forwards; */
+  /* opacity: 0; */
 }
 
 .SubContact {
@@ -31,8 +31,8 @@
   background-color: linear-gradient(to bottom, white, #cfd7ed, #fcfcfc);
   width: 60%;
   text-align: center;
-  animation: movedown 1s linear forwards;
-  opacity: 0;
+  /* animation: movedown 1s linear forwards;
+  opacity: 0; */
   margin-bottom: 50px;
 }
 
@@ -119,9 +119,9 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .Contact {
+  /* .Contact {
     padding-top: 10%;
-  }
+  } */
   .SubContact {
     width: 50%;
   }

@@ -8,6 +8,7 @@
   flex-direction: row;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   z-index: 1000;
+  font-family: "GloockRegular", "BelgianoSerif2", "DMSerifDisplayRegular", "DMSerifDisplayItalic", sans-serif;
 }
 
 .Navbar .LeftSide {

@@ -10,11 +10,13 @@ import About from "./pages/about.jsx";
 import NotFound from "./pages/notfound.jsx";
 import Contact from "./pages/contact.jsx";
 import Articles from "./pages/articles.jsx";
+import Councils from "./pages/council.jsx";
 import {
   BrowserRouter as Router,
   Route,
   Routes as Switch,
 } from "react-router-dom";
+import "./styles/font.css";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,6 +43,7 @@ function App() {
           <Route path="/registration" element={<Registration />} />
           <Route path="/sponsors" element={<Sponsor />} />
           <Route path="/articles" element={<Articles />} />
+          <Route path="/councils" element={<Councils />} />
           <Route path="*" element={<NotFound />} />
         </Switch>
         <div>

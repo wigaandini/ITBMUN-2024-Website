@@ -1,0 +1,24 @@
+@font-face {
+    font-family: BelgianoSerif2;
+    src: url('../../public/font/BelgianoSerif2.ttf');
+  }
+  
+  @font-face {
+    font-family: DMSerifDisplayItalic;
+    src: url('../../public/font/DMSerifDisplay-Italic.ttf');
+  }
+  
+  @font-face {
+    font-family: GloockRegular;
+    src: url('../../public/font/Gloock-Regular.ttf');
+  }
+  
+  @font-face {
+    font-family: DMSerifDisplayRegular;
+    src: url('../../public/font/DMSerifDisplay-Regular.ttf');
+  }
+  
+  .BelgianoSerif2 {
+    font-family: BelgianoSerif2;
+  }
+  

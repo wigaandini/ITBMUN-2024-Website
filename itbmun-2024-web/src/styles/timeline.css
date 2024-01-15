@@ -5,13 +5,13 @@
   /* max-width: 1200px; */
   margin: 100px auto;
   /* font-family: "Poppins", sans-serif; */
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", s1ans-serif;
+  font-family: "GloockRegular", "DMSerifDisplayRegular", "BelgianoSerif2", "DMSerifDisplayItalic", sans-serif;
   padding: 0;
   width: 100%;
 }
 
-.Title {
-  font-size: 30px;
+.Title h1 {
+  font-size: 60px;
   font-weight: 300;
   margin-bottom: 50px;
   margin-top: 70px;
@@ -125,7 +125,8 @@
 }
 
 .TextBox h2 {
-  font-weight: 600;
+  font-size: 25px;
+  font-weight: 500;
   margin-bottom: 10px;
 }
 

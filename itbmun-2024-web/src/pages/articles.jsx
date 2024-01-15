@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/articles.css';
 import { articles1, articles2, articles3 } from '../components/articlescontent.jsx';
+import "../styles/font.css";
 
 const Articles = () => {
   const renderArticles = (articles) => {
