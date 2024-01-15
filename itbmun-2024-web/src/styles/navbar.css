@@ -17,10 +17,24 @@
   display: flex;
   align-items: center;
   padding-left: 70px;
+  position: relative;
+  z-index: 1;
+}
+
+.Navbar #close .LeftSide {
+  display: flex;
+}
+
+.Navbar #open .LeftSide {
+  display: none;
 }
 
 .Navbar .LeftSide img {
   width: 120px;
+}
+
+.Navbar .LeftSide .logo-text {
+  display: block; /* Set the initial display */
 }
 
 .Navbar .RightSide {
@@ -71,25 +85,16 @@
   display: inherit;
 }
 
-.Navbar #open .HiddenLinks {
-  display: inherit;
-  margin-left: 30px;
-}
-
-.Navbar #close .HiddenLinks {
-  display: none;
-}
-
 .Navbar #open a {
   width: 70px;
   margin: 5px;
 }
 
-@media only screen and (max-width: 1200px) {
-  .Navbar .RightSide a {
-    width: 70px;
-  }
+.Navbar .LeftSide #logo-text-mobile {
+  display: none; /* Set initial display for mobile logo text */
+}
 
+@media only screen and (max-width: 1200px) {
   .Navbar .LeftSide {
     padding-left: 50px;
   }
@@ -110,12 +115,11 @@
     display: inherit;
   }
 
-  .Navbar #open .HiddenLinks {
-    display: inherit;
-    margin-left: 30px;
+  .Navbar .LeftSide .logo-text {
+    display: none; /* Hide the desktop logo text on mobile */
   }
 
-  .Navbar #close .HiddenLinks {
-    display: none;
+  .Navbar .LeftSide #logo-text-mobile {
+    display: block; /* Show the mobile logo text on mobile */
   }
 }

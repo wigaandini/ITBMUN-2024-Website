@@ -39,7 +39,7 @@ function Timeline() {
         <img src={ Circle } />
         <div className="TextBox">
         <h2> Chair Recruitment </h2>
-          <small> Mid of January 2024 </small>
+          <small> 15 January - 5 February 2024 </small>
           <p>
             {" "}
             The recruitment process for ITBMUN 2024 chair members will be held
