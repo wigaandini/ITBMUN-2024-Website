@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/footer.css";
 import Instagram from "@mui/icons-material/Instagram";
 import EmailIcon from "@mui/icons-material/Email";
+import { LinkedIn } from "@mui/icons-material";
 
 function Footer() {
   const igURL = "https://www.instagram.com/itbmun/";
@@ -13,6 +14,8 @@ function Footer() {
           <Instagram /> </a>
           <a href="mailto:itbmun2024@gmail.com">
           <EmailIcon /> </a>
+          <a href="https://www.linkedin.com/company/itbmun2024/">
+          <LinkedIn /> </a>
         </p>
         <p className="Copyright"> &copy; ITBMUN 2024 </p>
       </div>

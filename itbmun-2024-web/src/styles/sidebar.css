@@ -1,0 +1,97 @@
+.Sidebar {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 250px;
+  height: 100%;
+  background-color: #040f25;
+  transition: left 0.3s;
+  z-index: 1000;
+  font-family: "GloockRegular", "BelgianoSerif2", "DMSerifDisplayRegular",
+    "DMSerifDisplayItalic", sans-serif;
+}
+
+.Sidebar.open {
+  left: 0;
+}
+
+.Sidebar__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.Sidebar__header img {
+  width: 120px;
+}
+
+.Sidebar__header button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: block;
+  margin-top: -10px;
+}
+
+.Sidebar__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.Sidebar__links a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  transition: color 0.3s, transform 0.3s;
+
+  &:hover {
+    color: #ffcc00;
+    transform: scale(1.1);
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .Navbar .RightSide a {
+    width: 70px;
+  }
+
+  .Navbar .LeftSide {
+    padding-left: 50px;
+  }
+
+  .Navbar .RightSide a {
+    display: none;
+  }
+
+  .Navbar .RightSide button {
+    display: inherit;
+  }
+
+  .Navbar #open img {
+    display: none;
+  }
+
+  .Navbar #close img {
+    display: inherit;
+  }
+
+  .Navbar #open .HiddenLinks {
+    display: inherit;
+    margin-left: 30px;
+  }
+
+  .Navbar #close .HiddenLinks {
+    display: none;
+  }
+
+  .Sidebar {
+    left: 0;
+  }
+}

@@ -32,7 +32,7 @@ function Council() {
         <Carousel
             responsive={responsive}
             autoPlay
-            autoPlaySpeed={5000}
+            autoPlaySpeed={3000}
             transitionDuration={2000}
             infinite={true}
         >
