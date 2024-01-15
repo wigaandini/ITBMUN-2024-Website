@@ -14,7 +14,7 @@ function Footer() {
           <Instagram /> </a>
           <a href="mailto:itbmun2024@gmail.com">
           <EmailIcon /> </a>
-          <a href="https://www.linkedin.com/company/itbmun2024/">
+          <a href="https://www.linkedin.com/company/itbmodelunitednations">
           <LinkedIn /> </a>
         </p>
         <p className="Copyright"> &copy; ITBMUN 2024 </p>
