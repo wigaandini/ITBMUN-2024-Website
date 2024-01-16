@@ -8,6 +8,7 @@ function Timeline() {
       <div className="Title">
         <h1>Timeline of ITBMUN 2024</h1>
       </div>
+
       <div className="Container LeftContainer">
         <img src={ Circle } />
         <div className="TextBox">

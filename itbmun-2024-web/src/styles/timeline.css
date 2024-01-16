@@ -19,7 +19,6 @@
 }
 
 .Container {
-  padding: 10px 50px;
   position: relative;
   background-color: linear-gradient(to bottom, white, #cfd7ed, #fcfcfc);
   width: 50%;
@@ -79,28 +78,32 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 400px;
-  margin: 0 auto;
 }
 
 .LeftContainer {
-  left: 0;
+  left: 1%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: end;
+  align-items: center;
+
 }
 
 .RightContainer {
-  left: 43%;
+  left: 48%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
 }
 
 .Container img {
   top: 35%;
-  position: absolute;
   width: 40px;
   border-radius: 50%;
   right: 86px;
 }
 
-.RightContainer img {
-  left: 85px;
-}
 
 .Timeline::after {
   content: "";
@@ -140,7 +143,7 @@
   height: 0;
   width: 0;
   position: absolute;
-  top: 34%;
+  top: 43%;
   z-index: 1;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
@@ -152,7 +155,7 @@
   height: 0;
   width: 0;
   position: absolute;
-  top: 34%;
+  top: 43%;
   z-index: 1;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
@@ -166,23 +169,31 @@
     margin-bottom: 100px;
   }
   .Timeline::after {
-    left: 50px;
+    left: 70px;
   }
-  .Container {
-    padding-left: 25px;
-    padding-right: 25px;
-  }
+
   .TextBox {
     font-size: 13px;
+    min-width: 160px;
   }
   .TextBox small {
     margin-bottom: 10px;
   }
+  .LeftContainer{
+    left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
   .RightContainer {
-    left: 0;
+    left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
   }
   .LeftContainer img, .RightContainer img {
-    left: 32.5px;
+    left: -20px;
   }
   .RightArrow, .LeftArrow {
     border-right: 15px solid white;
