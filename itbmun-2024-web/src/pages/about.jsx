@@ -11,19 +11,18 @@ function About() {
       <div className="aboutBottom">
         <h1> ABOUT US</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-          mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-          voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-          fugiat iusto fuga praesentium optio, eaque rerum! Provident similique
-          accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut
-          molestias architecto voluptate aliquam nihil, eveniet aliquid culpa
-          officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum
-          nesciunt ipsum debitis quas aliquid. Reprehenderit, quia. Quo neque
-          error repudiandae fuga? Ipsa laudantium molestias eos sapiente
-          officiis modi at sunt excepturi expedita sint? Sed quibusdam
-          recusandae alias error harum maxime adipisci amet laborum.
-          Perspiciatis minima nesciunt dolorem! Officiis iure rerum voluptates a
-          cumque velit
+          An annual series of events organized by its committee, led by a
+          Secretary General, from the students of Institut Teknologi Bandung
+          (ITB), first initiated by Ganesha MUN Club in 2016. This event has
+          several pre-events that precede the main MUN Competition scheduled for
+          June 2024!
+        </p>
+        <p>
+          Unfamiliar with MUNs? Don't worry – it's a simulation of the United
+          Nations where students act as delegates, addressing real-world issues
+          with the policies of their assigned countries. It's the model of the
+          United Nations. Whether you're passionate about MUN or just curious,
+          ITBMUN is the perfect place for you!
         </p>
       </div>
     </div>
