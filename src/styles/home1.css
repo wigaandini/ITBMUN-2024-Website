@@ -1,5 +1,5 @@
 .Home {
-  width: 100%;
+  width: auto;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -12,6 +12,7 @@
   background-image: url("../assets/BG.jpg");
   filter: saturate(60%);
   opacity: 0.8;
+  position: relative;
 }
 
 .Home::before {

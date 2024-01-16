@@ -91,10 +91,14 @@
 }
 
 .Navbar .LeftSide #logo-text-mobile {
-  display: none; /* Set initial display for mobile logo text */
+  display: none;
 }
 
 @media only screen and (max-width: 1200px) {
+  .Navbar {
+    width: 100%;
+  }
+
   .Navbar .LeftSide {
     padding-left: 50px;
   }
