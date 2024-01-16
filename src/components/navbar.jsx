@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Logo from "../assets/ITBMUN-Logo.png";
 import { Link } from "react-router-dom";
-import Sidebar from "./Sidebar";
+import Sidebar from "./sidebar.jsx";
 import "../styles/navbar.css";
 import ReorderIcon from '@mui/icons-material/Reorder';
 

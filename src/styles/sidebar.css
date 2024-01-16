@@ -1,0 +1,106 @@
+.Sidebar {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 300px;
+  height: 100%;
+  background-color: #dbd6c3;
+  transition: left 0.5s;
+  z-index: 1000;
+  align-items: center;
+  justify-items: center;
+  font-family: "GloockRegular", "BelgianoSerif2", "DMSerifDisplayRegular",
+    "DMSerifDisplayItalic", sans-serif;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(43, 43, 43, 0.5); 
+  z-index: 999;
+  display: none;
+}
+
+.Sidebar.open {
+  left: 0;
+}
+
+.Sidebar__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  position: relative;
+}
+
+.Sidebar__header img {
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.Sidebar__header button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  top: 10px; 
+  right: 0;
+}
+
+.Sidebar__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.Sidebar__links a {
+  color: #333 !important;
+  text-decoration: none;
+  margin: 0px !important;
+  font-size: 18px !important;
+  font-weight: bold;
+  text-align: center;
+  transition: color 0.3s, transform 0s !important;
+  background-color: #c6c2b1;
+  padding: 20px;
+  width: 100%;
+}
+
+.Sidebar__links a:hover {
+  color: #978230 !important;
+  transform: scale(1) !important;
+}
+
+@media only screen and (max-width: 1200px) {
+  .Sidebar.open {
+    left: 0;
+  }
+
+  .Overlay {
+    display: block;
+  }
+}
+
+.CloseButton {
+  background-color: transparent;
+  border: none;
+  color: #333 !important;
+  cursor: pointer;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.CloseButton:hover {
+  color: #978230 !important;
+}
