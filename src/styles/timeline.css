@@ -5,7 +5,8 @@
   /* max-width: 1200px; */
   margin: 100px auto;
   /* font-family: "Poppins", sans-serif; */
-  font-family: "GloockRegular", "DMSerifDisplayRegular", "BelgianoSerif2", "DMSerifDisplayItalic", sans-serif;
+  font-family: "GloockRegular", "DMSerifDisplayRegular", "BelgianoSerif2",
+    "DMSerifDisplayItalic", sans-serif;
   padding: 0;
   width: 100%;
 }
@@ -86,7 +87,6 @@
   flex-direction: row-reverse;
   justify-content: end;
   align-items: center;
-
 }
 
 .RightContainer {
@@ -103,7 +103,6 @@
   border-radius: 50%;
   right: 86px;
 }
-
 
 .Timeline::after {
   content: "";
@@ -173,35 +172,43 @@
   }
 
   .TextBox {
-    font-size: 13px;
+    font-size: 12px;
     min-width: 160px;
+  }
+  .TextBox h2 {
+    font-size: 20px;
   }
   .TextBox small {
     margin-bottom: 10px;
   }
-  .LeftContainer{
+  .LeftContainer {
     left: 50px;
     display: flex;
     flex-direction: row;
     justify-content: start;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
   .RightContainer {
     left: 50px;
     display: flex;
     flex-direction: row;
     justify-content: start;
-
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
-  .LeftContainer img, .RightContainer img {
+  .LeftContainer img,
+  .RightContainer img {
     left: -20px;
   }
-  .RightArrow, .LeftArrow {
+  .RightArrow,
+  .LeftArrow {
     border-right: 15px solid white;
     border-left: 0;
-    left: -14px
+    left: -14px;
   }
-  .Title {
-    font-size: 20px;
+  .Title h1 {
+    font-size: 45px;
     margin-right: 20px;
     margin-left: 20px;
   }
