@@ -1,0 +1,12 @@
+COLOR PALETTE
+
+BACKGROUND (linear gradient)
+white,
+#cfd7ed, (light blue)
+#d3d3d3, (light grey)
+#cfc49b, (light gold)
+white
+
+FONT
+#040f25 (dark blue)
+

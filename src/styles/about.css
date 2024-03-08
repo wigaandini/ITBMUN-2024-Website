@@ -1,37 +1,103 @@
 .about {
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: "DMSerifDisplayRegular", "GloockRegular", "BelgianoSerif2",
+  "DMSerifDisplayItalic", sans-serif;
+  background: linear-gradient(
+    to bottom,
+    white,
+    #cfd7ed,
+    #d3d3d3,
+    #cfc49b,
+    white
+  );
+  flex-shrink: 0;
+}
+
+.aboutTop {
+  width: 100%;
+  height: 45%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutTop h1 {
+  font-weight: 400;
+  font-size: 70px;
+  color: #040f25;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.aboutTop p {
+  width: 1200px;
+  margin-top: 50px;
+  margin: 0 auto;
+  font-size: 22px;
+  color: #040f25;
+  justify-content: center;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.aboutBottom {
+  display: flex;
+  flex-direction: column;
+  height: 55%;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.aboutBottom p {
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 22px;
+  color: #040f25;
+  justify-content: center;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.video-container {
+  max-width: 600px; 
+  margin: 0 auto;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.video-caption {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px !important;
+  color: #040f25;
+}
+
+@media screen and (max-width: 1200px) {
+  .aboutTop h1 {
+    font-size: 50px;
   }
-  
-  .aboutTop {
-    width: 100%;
-    height: 45%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  .about {
+    height: auto;
   }
-  
-  .aboutBottom {
-    display: flex;
-    flex-direction: column;
-    height: 55%;
-    align-items: center;
-    margin-top: 50px;
+  .aboutTop p {
+    width: 90%;
   }
-  
   .aboutBottom p {
-    width: 1200px;
+    width: 90%;
   }
-  
-  .about .aboutBottom h1 {
-    font-weight: 400;
-    font-size: 70px;
-    color: black;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    transform: translateY(-40px);
-  }
+}
