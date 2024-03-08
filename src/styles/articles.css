@@ -1,8 +1,8 @@
-body {
+/* body {
   margin: 0;
   padding: 0;
   background: linear-gradient(to bottom, white, #cfd7ed, #d3d3d3, #cfc49b, white);
-}
+} */
 
 .Article {
   font-family: "GloockRegular", "BelgianoSerif2", "DMSerifDisplayRegular", "DMSerifDisplayItalic", sans-serif;
