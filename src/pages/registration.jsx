@@ -22,9 +22,6 @@ function Registration() {
       <div className="RegistrationForm">
         <div className="registrationContent">
           <p> What are you waiting for? Enroll immediately! </p>
-          {/* <a href={CHAIRURL} target="_blank" rel="noopener noreferrer">
-            <button> Chair </button>
-          </a> */}
           <a href={DELURL} target="_blank" rel="noopener noreferrer">
             <button> Delegations </button>
           </a>
