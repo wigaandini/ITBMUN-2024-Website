@@ -57,7 +57,7 @@ function Council() {
                 {" "}
                 United Nations Educational, Scientific and Cultural Organization{" "}
             </h3>
-            {/* <p> Test description for UNESCO council. </p> */}
+            <p> "Ethical Implications of Using AI in Education" </p>
             </div>
             <div className="CouncilCard">
             <img src="/council/CRISIS.png" alt="CRISIS" />
@@ -65,7 +65,7 @@ function Council() {
                 <h2> CRISIS </h2>
             </a>
             <h3> Crisis Council </h3>
-            {/* <p> Test description for CRISIS council. </p> */}
+            <p> "Crisis in the Andes: Navigating through the Colombian Drug Trade" </p>
             </div>
             <div className="CouncilCard">
             <img src="/council/CSTD.png" alt="CSTD" />
@@ -73,7 +73,7 @@ function Council() {
                 <h2> CSTD </h2>
             </a>
             <h3> Commission on Science and Technology for Development </h3>
-            {/* <p> Test description for CSTD council. </p> */}
+            <p> "The Replicability Crisis: Preventing Science from Becoming Unscientific" </p>
             </div>
             <div className="CouncilCard">
             <img src="/council/UNODC.png" alt="UNODC" />
@@ -81,7 +81,7 @@ function Council() {
                 <h2> UNODC </h2>
             </a>
             <h3> United Nations Office of Drugs and Crime </h3>
-            {/* <p> Test description for UNODC council. </p> */}
+            <p> "Countering the Proliferation of Convincing Synthetic Media Disinformation" </p>
             </div>
             <div className="CouncilCard">
             <img src="/council/UNSC.png" alt="UNSC" />
@@ -89,7 +89,7 @@ function Council() {
                 <h2> UNSC </h2>
             </a>
             <h3> United Nations Security Council </h3>
-            {/* <p> Test description for UNSC council. </p> */}
+                <p> "Greek - Turkish Aegean Sea Territorial Dispute" </p>
             </div>
         </Carousel>
         </div>
