@@ -96,12 +96,10 @@ video {
     height: auto;
   }
   
-  .aboutTop p {
-    width: 90%;
-  }
-  
+  .aboutTop p,
   .aboutBottom p {
     width: 90%;
+    font-size: 18px;
   }
   
   .video-container {
