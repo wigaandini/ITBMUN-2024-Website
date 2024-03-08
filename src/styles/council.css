@@ -5,24 +5,11 @@
   text-align: center;
   margin-bottom: 80px;
   justify-content: center;
-  position: relative; /* Add this line */
-  z-index: 1; /* Add this line */
-}
-
-.Sidebar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 250px;
-  height: 100%;
-  background-color: #333; /* Example color */
-  z-index: 2; /* Higher z-index than CouncilList */
 }
 
 .Council {
   background: linear-gradient(to bottom, white, #d9dce6, #fcfcfc);
   justify-content: center;
-  z-index: 0; /* Add this line */
 }
 
 .CouncilList h1 {
