@@ -91,13 +91,21 @@ video {
   .aboutTop h1 {
     font-size: 50px;
   }
+  
   .about {
     height: auto;
   }
+  
   .aboutTop p {
     width: 90%;
   }
+  
   .aboutBottom p {
     width: 90%;
+  }
+  
+  .video-container {
+    max-width: 80%;
+    margin: 0 auto;
   }
 }
