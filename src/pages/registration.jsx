@@ -29,7 +29,7 @@ function Registration() {
             <button> Delegations </button>
           </a>
           <a href={DELSINGLEURL} target="_blank" rel="noopener noreferrer">
-            <button> Single Delegation </button>
+            <button> Single Delegate </button>
           </a>
         </div>
       </div>
