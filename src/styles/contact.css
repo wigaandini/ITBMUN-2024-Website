@@ -120,13 +120,36 @@
 
 @media screen and (max-width: 1000px) {
   .SubContact {
-    width: 50%;
+    width: 80%; 
+    margin: 20px auto; 
   }
+  
   .ContactInfo {
     flex-direction: column;
+    margin: 0 auto;
   }
+  
+  .ContactInfo > * {
+    margin-bottom: 15px;
+  }
+
   .Left,
   .Right {
-    margin: 10px;
+    margin: 10px auto;
+  }
+  
+  .Title {
+    font-size: 30px; 
+  }
+
+  .SubContact h2 {
+    font-size: 20px; 
+  }
+  
+  .SubContact p,
+  .ContactInfo h3,
+  .ContactInfo h4,
+  .ContactInfo p {
+    font-size: 14px; 
   }
 }
