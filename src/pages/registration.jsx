@@ -5,7 +5,8 @@ import Logo from "../assets/logo-black.png";
 function Registration() {
   const GBURL = "*";
   const CHAIRURL = "https://bit.ly/ChairRecruitmentITBMUN2024";
-  const DELURL = "*";
+  const DELSINGLEURL = "https://docs.google.com/forms/d/e/1FAIpQLSdeQb3CRV30ttL9lD6w2M7j-_USdHFsLKLQCOI0xlZHfz26-Q/viewform?usp=sf_link";
+  const DELURL = "https://docs.google.com/forms/d/e/1FAIpQLScHsdrSWmYjp4nczAdHPRjHJq2oSb1o5YqgsXna7hgbIFt9zA/viewform";
 
   return (
     <div className="Registration">
@@ -25,7 +26,10 @@ function Registration() {
             <button> Chair </button>
           </a>
           <a href={DELURL} target="_blank" rel="noopener noreferrer">
-            <button> Delegation </button>
+            <button> Delegations </button>
+          </a>
+          <a href={DELSINGLEURL} target="_blank" rel="noopener noreferrer">
+            <button> Single Delegation </button>
           </a>
         </div>
       </div>
