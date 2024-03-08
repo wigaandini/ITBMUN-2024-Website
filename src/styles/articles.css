@@ -1,15 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, white, #cfd7ed, #d3d3d3, #cfc49b, white);
+}
+
 .Article {
-  font-family: "GloockRegular", "BelgianoSerif2", "DMSerifDisplayRegular",
-    "DMSerifDisplayItalic", sans-serif;
-  max-width: 800px;
-  margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  font-family: "GloockRegular", "BelgianoSerif2", "DMSerifDisplayRegular", "DMSerifDisplayItalic", sans-serif;
+  padding: 50px 0;
+  /* text-align: center; */
+  font-weight: 300;
+  color: #333;
 }
 
 .container {
-  font-family: "GloockRegular", "BelgianoSerif2", "DMSerifDisplayRegular",
-    "DMSerifDisplayItalic", sans-serif;
+  font-family: "GloockRegular", "BelgianoSerif2", "DMSerifDisplayRegular", "DMSerifDisplayItalic", sans-serif;
   max-width: 800px;
   margin: 0 auto;
   margin-top: 30px;
@@ -20,11 +24,11 @@
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 100%;
   margin: 20px;
   transition: background-color 0.3s;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
   margin-bottom: 30px;
+  background-color: white; /* Keeping the box white */
 }
 
 .box:hover {
