@@ -119,13 +119,18 @@
 }
 
 @media screen and (max-width: 1000px) {
+  /* .Contact {
+    padding-top: 10%;
+  } */
   .SubContact {
     width: 50%;
   }
   .ContactInfo {
     flex-direction: column;
   }
-  .Left,
+  .Left {
+    margin: 10px;
+  }
   .Right {
     margin: 10px;
   }
