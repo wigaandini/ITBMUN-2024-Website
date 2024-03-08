@@ -32,7 +32,7 @@
   border-radius: 20px;
   text-align: center;
   max-width: 700px;
-  min-height: 60vh; /* Adjust the minimum height based on your preference */
+  height: 600px; /* Set a fixed height for all cards */
   background-color: #ebe4ce;
   margin: 20px;
   overflow: hidden;
