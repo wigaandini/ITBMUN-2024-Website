@@ -1,10 +1,10 @@
-.title {
+.Article {
   font-family: "GloockRegular", "BelgianoSerif2", "DMSerifDisplayRegular",
     "DMSerifDisplayItalic", sans-serif;
-  font-size: 1.8rem;
-  margin: 1rem;
-  text-align: justify;
-  line-height: 1.5;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .container {
