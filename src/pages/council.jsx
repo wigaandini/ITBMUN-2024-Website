@@ -37,7 +37,7 @@ function Council() {
             infinite={true}
         >
             <div className="CouncilCard">
-            <img src="/council/press-fix.png" alt="PRESS" />
+            <img src="/council/PRESS.png" alt="PRESS" />
             <a
                 href="https://bestdelegate.com/a-guide-to-model-un-press-corps-committees/"
                 target="_blank"
@@ -49,7 +49,7 @@ function Council() {
             {/* <p> Test description for PRESS council. </p> */}
             </div>
             <div className="CouncilCard">
-            <img src="/council/unesco-fix.png" alt="UNESCO" />
+            <img src="/council/UNESCO.png" alt="UNESCO" />
             <a href="https://www.unesco.org/en">
                 <h2> UNESCO </h2>
             </a>
@@ -60,7 +60,7 @@ function Council() {
             {/* <p> Test description for UNESCO council. </p> */}
             </div>
             <div className="CouncilCard">
-            <img src="/council/crisis-fix.png" alt="CRISIS" />
+            <img src="/council/CRISIS.png" alt="CRISIS" />
             <a href="https://bestdelegate.com/everything-you-need-to-know-about-crisis-committees/">
                 <h2> CRISIS </h2>
             </a>
@@ -68,7 +68,7 @@ function Council() {
             {/* <p> Test description for CRISIS council. </p> */}
             </div>
             <div className="CouncilCard">
-            <img src="/council/cstd-fix.png" alt="CSTD" />
+            <img src="/council/CSTD.png" alt="CSTD" />
             <a href="https://unctad.org/topic/commission-on-science-and-technology-for-development">
                 <h2> CSTD </h2>
             </a>
@@ -76,7 +76,7 @@ function Council() {
             {/* <p> Test description for CSTD council. </p> */}
             </div>
             <div className="CouncilCard">
-            <img src="/council/unodc-fix.png" alt="UNODC" />
+            <img src="/council/UNODC.png" alt="UNODC" />
             <a href="https://www.unodc.org/">
                 <h2> UNODC </h2>
             </a>
@@ -84,7 +84,7 @@ function Council() {
             {/* <p> Test description for UNODC council. </p> */}
             </div>
             <div className="CouncilCard">
-            <img src="/council/unsc-fix.png" alt="UNSC" />
+            <img src="/council/UNSC.png" alt="UNSC" />
             <a href="https://www.un.org/securitycouncil/">
                 <h2> UNSC </h2>
             </a>
