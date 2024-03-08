@@ -16,16 +16,18 @@ function Articles() {
   };
 
   return (
-    <div className="container">
-      {showPopup && (
-        <div className="popup">
-          <div className="popup-content">
-            <h1>{popupContent.title}</h1>
-            <p>{popupContent.summary}</p>
-            <button onClick={closePopup}>Close</button>
+    <>
+      <title>Articles of ITBMUN 2023</title>
+      <div className="container">
+        {showPopup && (
+          <div className="popup">
+            <div className="popup-content">
+              <h1>{popupContent.title}</h1>
+              <p>{popupContent.summary}</p>
+              <button onClick={closePopup}>Close</button>
+            </div>
           </div>
-        </div>
-      )}
+        )}
 
       <div className="box" onClick={() => handleBoxClick("China's Lenient Approach Leads to Variability", 
       `China claims to be in a neutral position in terms of establishing clear status over Western Sahara, with the end goal of constructing stability, peace and security within the area. Thus far they affirm their stance in being open minded in the proposed solution as long as the target is achieved.
@@ -229,6 +231,7 @@ function Articles() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 

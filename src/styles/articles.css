@@ -1,3 +1,12 @@
+.title {
+  font-family: "GloockRegular", "BelgianoSerif2", "DMSerifDisplayRegular",
+    "DMSerifDisplayItalic", sans-serif;
+  font-size: 1.8rem;
+  margin: 1rem;
+  text-align: justify;
+  line-height: 1.5;
+}
+
 .container {
   font-family: "GloockRegular", "BelgianoSerif2", "DMSerifDisplayRegular",
     "DMSerifDisplayItalic", sans-serif;
