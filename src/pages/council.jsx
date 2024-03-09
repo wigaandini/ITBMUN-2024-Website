@@ -30,6 +30,7 @@ function Council() {
         <div className="CouncilList">
         <h1> COUNCIL INFO </h1>
         <Carousel
+            className="carousel"
             responsive={responsive}
             autoPlay
             autoPlaySpeed={3000}
