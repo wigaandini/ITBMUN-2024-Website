@@ -19,6 +19,7 @@ function Registration() {
           </a>
         </div>
       </div>
+
       <div className="RegistrationForm">
         <div className="registrationContent">
           <p> What are you waiting for? Enroll immediately! </p>
