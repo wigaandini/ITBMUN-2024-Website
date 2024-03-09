@@ -60,13 +60,15 @@ function Articles() {
             ambiguously similar strategy to the alternate bloc.
           </p>
           <div className="meta-data">
-            <img src="/articles/NHK_2.jpg" alt="Article" />
-            <p>
+            <div className="boxImageContainer" >
+              <img className="boxImage" src="/articles/NHK_2.jpg" alt="Article_Image" />
+            </div>
+          </div>
+          <p className="authorDetails">
               <span>Jeana Sophia Antolin Limbaco</span>
               <span>June 24, 2023</span>
               <span>NHK</span>
             </p>
-          </div>
         </div>
 
         <div className="box" onClick={() => handleBoxClick("ASS asks if The Gays Can Shut Up", 
@@ -87,8 +89,10 @@ function Articles() {
           <h1 className="title">ASS asks if The Gays Can Shut Up</h1>
           <p className="summary">Pride celebration turned tragedy</p>
           <div className="meta-data">
-            <img src="/articles/Reuters_2.jpg" />
-            <p>
+            <div className="boxImageContainer" >
+              <img className="boxImage" src="/articles/Reuters_2.jpg" alt="Article_Image"/>
+            </div>
+            <p className="authorDetails">
               <span>Gerald Lionel</span>
               <span>June 24, 2023</span>
               <span>Reuters</span>
@@ -111,8 +115,10 @@ function Articles() {
             The blurred line between precautionary and derogatory profiling.
           </p>
           <div className="meta-data">
-            <img src="/articles/Reuters_1.jpg" />
-            <p>
+            <div className="boxImageContainer" >
+              <img className="boxImage" src="/articles/Reuters_1.jpg" alt="Article_Image"/>
+            </div>
+            <p className="authorDetails">
               <span>Gerald Lionel</span>
               <span>June 24, 2023</span>
               <span>Reuters</span>
@@ -141,8 +147,10 @@ function Articles() {
             Molestors
           </h1>
           <div className="meta-data">
-            <img src="/articles/ToI_1.jpg" />
-            <p>
+            <div className="boxImageContainer" >
+              <img className="boxImage" src="/articles/ToI_1.jpg" alt="Article_Image"/>
+            </div>
+            <p className="authorDetails">
               <span>Zoe Haryoseno</span>
               <span>June 24, 2023</span>
               <span>Times of India</span>
@@ -194,8 +202,10 @@ function Articles() {
             child sex exploitation
           </p>
           <div className="meta-data">
-            <img src="/articles/CNN_1.jpg" />
-            <p>
+            <div className="boxImageContainer" >
+              <img className="boxImage" src="/articles/CNN_1.jpg" alt="Article_Image"/>
+            </div>
+            <p className="authorDetails">
               <span>Azel Bimarajasa</span>
               <span>June 24, 2023</span>
               <span>CNN</span>
@@ -224,8 +234,8 @@ function Articles() {
             in an Orderly Manner
           </p>
           <div className="meta-data">
-            <img src="/articles/NHK_1.jpg" />
-            <p>
+            <img className="boxImage" src="/articles/NHK_1.jpg" alt="Article_Image"/>
+            <p className="authorDetails">
               <span>Jeana Sophia Antolin Limbaco</span>
               <span>June 24, 2023</span>
               <span>NHK</span>
