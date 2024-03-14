@@ -28,6 +28,7 @@
 .CouncilCard {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   border-radius: 20px;
   text-align: center;
