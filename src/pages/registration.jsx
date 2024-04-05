@@ -3,11 +3,11 @@ import "../styles/registration.css";
 import Logo from "../assets/logo-black.png";
 
 function Registration() {
-  const GBURL = "https://drive.google.com/file/d/1G5iBCayiEid6e0tdKzoJiK42BLHIqdhC/view?usp=drivesdk";
+  const GBURL = "https://drive.google.com/file/d/1Ds35_aGfdnw9cjm9nvM6-_qkR3WLb7ol/view?usp=drivesdk";
   const CHAIRURL = "https://bit.ly/ChairRecruitmentITBMUN2024";
   const DELSINGLEURL = "https://forms.gle/teUSCbEbUsHVLKjH6";
   const DELURL = "https://forms.gle/cWbyNiPF7zmki4kw7";
-  const OBS = "https://forms.gle/mtBaxihww3CsvKc27"
+  const OBSURL = "https://forms.gle/mtBaxihww3CsvKc27"
 
   return (
     <div className="Registration">
@@ -30,7 +30,7 @@ function Registration() {
           <a href={DELSINGLEURL} target="_blank" rel="noopener noreferrer">
             <button> Single Delegate </button>
           </a>
-          <a href={OBS} target="_blank" rel="noopener noreferrer">
+          <a href={OBSURL} target="_blank" rel="noopener noreferrer">
             <button> Observer </button>
           </a>
         </div>
