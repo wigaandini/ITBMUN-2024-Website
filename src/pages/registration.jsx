@@ -5,8 +5,9 @@ import Logo from "../assets/logo-black.png";
 function Registration() {
   const GBURL = "https://drive.google.com/file/d/1G5iBCayiEid6e0tdKzoJiK42BLHIqdhC/view?usp=drivesdk";
   const CHAIRURL = "https://bit.ly/ChairRecruitmentITBMUN2024";
-  const DELSINGLEURL = "https://docs.google.com/forms/d/e/1FAIpQLSdeQb3CRV30ttL9lD6w2M7j-_USdHFsLKLQCOI0xlZHfz26-Q/viewform?usp=sf_link";
-  const DELURL = "https://docs.google.com/forms/d/e/1FAIpQLScHsdrSWmYjp4nczAdHPRjHJq2oSb1o5YqgsXna7hgbIFt9zA/viewform";
+  const DELSINGLEURL = "https://forms.gle/teUSCbEbUsHVLKjH6";
+  const DELURL = "https://forms.gle/cWbyNiPF7zmki4kw7";
+  const OBS = "https://forms.gle/mtBaxihww3CsvKc27"
 
   return (
     <div className="Registration">
@@ -28,6 +29,9 @@ function Registration() {
           </a>
           <a href={DELSINGLEURL} target="_blank" rel="noopener noreferrer">
             <button> Single Delegate </button>
+          </a>
+          <a href={OBS} target="_blank" rel="noopener noreferrer">
+            <button> Observer </button>
           </a>
         </div>
       </div>
