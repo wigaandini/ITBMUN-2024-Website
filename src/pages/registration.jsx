@@ -25,7 +25,7 @@ function Registration() {
         <div className="registrationContent">
           <p> What are you waiting for? Enroll immediately! </p>
           <a href={DELURL} target="_blank" rel="noopener noreferrer">
-            <button> Delegations </button>
+            <button> Delegation </button>
           </a>
           <a href={DELSINGLEURL} target="_blank" rel="noopener noreferrer">
             <button> Single Delegate </button>
