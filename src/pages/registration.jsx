@@ -3,10 +3,10 @@ import "../styles/registration.css";
 import Logo from "../assets/logo-black.png";
 
 function Registration() {
-  const GBURL = "https://drive.google.com/file/d/1Ds35_aGfdnw9cjm9nvM6-_qkR3WLb7ol/view?usp=drivesdk";
+  const GBURL = "https://drive.google.com/file/d/1pY9G-fQSCThvtC6UjQJSuYTY4cVgBAK6/view?usp=drivesdk";
   const CHAIRURL = "https://bit.ly/ChairRecruitmentITBMUN2024";
-  const DELSINGLEURL = "https://forms.gle/teUSCbEbUsHVLKjH6";
-  const DELURL = "https://forms.gle/cWbyNiPF7zmki4kw7";
+  const DELSINGLEURL = "https://forms.gle/j5jHtPj8usAZjYX48";
+  const DELURL = "https://forms.gle/yJmstnkBvcXbFvgT8";
   const OBSURL = "https://forms.gle/mtBaxihww3CsvKc27"
 
   return (
